@@ -135,7 +135,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData.DataMapping
 
 			if (hasDisableExplorerShell && disableExplorerShell as bool? == true)
 			{
-				settings.Security.KioskMode = KioskMode.DisableExplorerShell;
+				settings.Security.KioskMode = KioskMode.None;
 			}
 
 			if (hasCreateNewDesktop && createNewDesktop as bool? == true)
